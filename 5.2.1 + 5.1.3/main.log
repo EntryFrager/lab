@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.11.20)  20 NOV 2025 21:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.11.20)  20 NOV 2025 21:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -820,7 +820,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  60i,13n,63p,1588b,404s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/matveypavlov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0600.600pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr6.pk> </home/matveypavlov/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmmi8.600pk> </home/matveypavlov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600pk> </home/matveypavlov/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/matveypavlov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0800.600pk> </home/matveypavlov/.texlive2021/texmf-var/fonts/pk/ljfour/public/amsfonts/symbols/msbm10.720pk> </home/matveypavlov/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmex10.720pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr8.pk> </home/matveypavlov/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmsy8.600pk> </home/matveypavlov/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmsy10.720pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk> </home/matveypavlov/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmmi12.600pk> </home/matveypavlov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home/matveypavlov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk> </home/matveypavlov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk> </home/matveypavlov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1440.600pk> </home/matveypavlov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm2074.600pk> </home/matveypavlov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2074.600pk>
-Output written on main.pdf (9 pages, 5140198 bytes).
+Output written on main.pdf (9 pages, 5140207 bytes).
 PDF statistics:
  517 PDF objects out of 1000 (max. 8388607)
  173 compressed objects within 2 object streams

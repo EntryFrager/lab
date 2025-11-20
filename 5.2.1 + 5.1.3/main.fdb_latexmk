@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1763661620 "/home/matveypavlov/Desktop/lab/5.2.1 + 5.1.3/main.tex" "main.pdf" "main" 1763661622
+["pdflatex"] 1763661940 "/home/matveypavlov/Desktop/lab/5.2.1 + 5.1.3/main.tex" "main.pdf" "main" 1763661942
   "/etc/texmf/web2c/texmf.cnf" 1763657503 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/matveypavlov/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk" 1763657728 14040 b397f018fda959ddcea76369263566f9 ""
   "/home/matveypavlov/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600pk" 1763657724 29452 fc974c63de00fe05fd3558fc8d8a2496 ""
@@ -28,7 +28,7 @@
   "/home/matveypavlov/.texlive2021/texmf-var/fonts/tfm/lh/lh-t2a/larm1728.tfm" 1763657706 3252 92d08740ce00199d6cf9ff4aaada81d1 ""
   "/home/matveypavlov/.texlive2021/texmf-var/fonts/tfm/lh/lh-t2a/larm2074.tfm" 1763657696 3264 03c2b9e4787a40d3b9c197c38b93b558 ""
   "/home/matveypavlov/.texlive2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1763657687 1405655 466ce4626529b3aeefc287b177aa4bb5 ""
-  "/home/matveypavlov/Desktop/lab/5.2.1 + 5.1.3/main.tex" 1763661620 27309 00ddee298d4847c7c0620efd4c4f5245 ""
+  "/home/matveypavlov/Desktop/lab/5.2.1 + 5.1.3/main.tex" 1763661940 27314 636f2236dca23de97a3c7bc21209422c ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk" 1136849718 13144 0235be32b099c919a01c28a385c0ff86 ""
   "/usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr6.pk" 1136849718 6912 5186bb5c879a613d13dd75addf1aeb47 ""
@@ -135,9 +135,9 @@
   "images/osc3.png" 1763657008 823902 86d4698147f484bcd47dd52df1b7dda4 ""
   "images/ram_1.png" 1763658211 94860 bd16e2411a6b1cb14d7f0f3869279639 ""
   "images/ram_2.png" 1763658230 74173 38dc663e85e716350f98cef9e5cbaf6b ""
-  "main.aux" 1763661621 7075 07e96842ec4d4d7e4deaee247f5341cc "pdflatex"
-  "main.out" 1763661620 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1763661620 27309 00ddee298d4847c7c0620efd4c4f5245 ""
+  "main.aux" 1763661942 7075 07e96842ec4d4d7e4deaee247f5341cc "pdflatex"
+  "main.out" 1763661941 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1763661940 27314 636f2236dca23de97a3c7bc21209422c ""
   (generated)
   "main.aux"
   "main.log"
