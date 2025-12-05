@@ -1,0 +1,298 @@
+\documentclass[12pt]{article}
+\usepackage[top=1cm, bottom=2cm, right=1cm, left=1cm]{geometry}
+\usepackage{amsfonts, amssymb, amsmath, hyperref}
+\usepackage{graphicx}
+\usepackage[T1, T2A]{fontenc}% T2A for Cyrillic font encoding
+\usepackage[english, russian]{babel}
+\usepackage[justification=centering]{caption}
+\usepackage{wrapfig}
+\usepackage{placeins}
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage{indentfirst}
+\usepackage{needspace}
+\usepackage{float}
+\usepackage{longtable}
+\floatplacement{table}{H}
+
+\begin{document}
+\title{\textbf{Лабораторная работа 5.4.2}\\ [2pt]{}}
+\date{\today}
+\author{Павлов Матвей}
+
+\maketitle
+
+\section*{Аннотация}
+
+С помощью магнитного спектрометра исследовать энергетический спектр $\beta$-частиц при распаде ядер $^{137}Cs$ и определить их максимальную энергию. Осуществить калибровку спектрометра по энергии электронов внутренней конверсии $^{137}Cs$.
+
+\section*{Теоретические сведения}
+	
+Бета-распад - самопроизвольное превращение ядер, при котором их массовое число не изменяется, а заряд увеличивается или уменьшается на единицу.
+В данной работе:
+\[
+^A_Z X \to ^{\ \, A}_{Z+1} X + e^- + \widetilde{\nu}
+\]
+
+Величина $W(p_e)$ является плотностью вероятности. Распределение электронов по энергии может быть вычислено теоретически. Для разрешенных переходов вероятность $\beta$-распада просто пропорциональна статистическому весу.
+\[
+    W(p_e)dp_e \propto p_e^2(E_m-E_e)^2 dp_e
+\]
+Кинетическая энергия электрона и его импульс связаны друг с другом обычной формулой:
+\[
+    E = \sqrt{(p_{e}c)^2+(m_{e}c^2)^2}-m_{e}c^2
+\]
+И это приводит к спектру, имеющему вид широкого колокола (рис.~\ref{fig:spectrum}). Кривая плавно отходит от нуля и столь же плавно, по параболе, касается оси абсцисс в области максимального импульса электронов.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.35\linewidth]{images/spectrum.jpg}
+    \captionof{figure}{Блок-схема установки для изучения $\beta$-спектра.}
+    \label{fig:spectrum}
+\end{figure}
+
+
+Дочерние ядра, возникающие в результате $\beta$-распада, нередко оказываются возбужденными. Возбужденные ядра отдают свою энергию либо излучая $\gamma$-квант, либо передавая избыток энергии одному из электронов внутренних оболочек атома. Излучаемые в таком процессе электроны имеют строго определенную энергию и называются \textit{конверсионными}.
+
+Конверсия чаще всего происходит на оболочках K и L. Ширина конверсионной линии является чисто аппаратурной -- по ней можно оценить разрешающую силу спектрометра.
+
+\section*{Экспериментальная установка}
+
+Блок-схема установки для изучения $\beta$-спектров изображена на рис. \ref{fig:test1}. Радиоактивный источник $^{137}$Cs помещен внутрь откачанной трубы. Электроны, сфокусированные магнитной линзой, попадают в счетчик. В газоразрядном счетчике они инициируют газовый разряд и тем самым приводят к появлению электрических импульсов на электродах, которые затем регистрируются счетным прибором.
+
+\begin{figure}[h]
+\centering
+\begin{minipage}{.5\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{images/scheme.png}
+    \captionof{figure}{Блок-схема установки для изучения $\beta$-спектра.}
+    \label{fig:test1}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{images/equip.png}
+    \captionof{figure}{Схема $\beta$-спектрометра с короткой магнитной линзой}
+    \label{fig:test2}
+\end{minipage}
+\end{figure}
+
+Энергию $\beta$-частиц определяют с помощью $\beta$-спектрометров (рис.~\ref{fig:test2}). В работе используется магнитный спектрометр с <<короткой линзой>>. Отметим, что в течение всего опыта геометрия прибора остается неизменной, поэтому импульс сфокусированных электронов пропорционален величине тока:
+\[
+    p_e = kI
+\]
+
+Cвязь между числом частиц, регистрируемых установкой, и функцией $W(p_e)$ выражается формулой:
+\[
+    N(p_e) \propto W(p_e)p_e,
+\]
+откуда
+\[
+    \frac{\sqrt{N}}{p_e^{3/2}} \propto E_m - E
+\]
+
+\section*{Ход работы}
+
+Проведем предварительное измерение $\beta$-спектра, изменяя ток магнитной линзы через $0.2$ А, а в близи конверсионного пика через $0.05$ A. Данные представлены в таблице ниже. Первая таблица содержит общие данные с шагом $0.2$ А. Вторая - для конверсионного пика с шагом $0.05$ А.
+
+Погрешность при измерении тока: $\sigma_I = 0.02$ А.
+
+Погрешность для N рассчитываем таким образом ($\tau = 100 \text{ c}$):
+
+\[
+N = \frac{n}{\tau} \rightarrow n = N \cdot \tau
+\]
+
+\[
+\sigma_n = \sqrt{n} \rightarrow \sigma_N = \frac{\sqrt{n}}{\tau} = \sqrt{\frac{N}{\tau}}
+\]
+
+\newpage
+
+\begin{longtable}{|c|c|c|}
+\hline
+\textbf{$I$, А} & \textbf{$N$, с$^{-1}$} & \textbf{$\sigma_N$, с$^{-1}$} \\ 
+\hline
+\endhead
+
+0.00 & 0.480 & 0.069 \\ \hline
+0.20 & 0.570 & 0.075 \\ \hline
+0.40 & 0.520 & 0.072 \\ \hline
+0.60 & 0.560 & 0.075 \\ \hline
+0.80 & 0.680 & 0.082 \\ \hline
+1.00 & 0.790 & 0.089 \\ \hline
+1.20 & 1.030 & 0.101 \\ \hline
+1.40 & 1.360 & 0.117 \\ \hline
+1.60 & 1.799 & 0.134 \\ \hline
+1.80 & 2.439 & 0.156 \\ \hline
+2.00 & 2.929 & 0.171 \\ \hline
+2.20 & 3.959 & 0.199 \\ \hline
+2.40 & 4.399 & 0.210 \\ \hline
+2.60 & 4.489 & 0.212 \\ \hline
+2.80 & 4.919 & 0.222 \\ \hline
+3.00 & 4.189 & 0.205 \\ \hline
+3.20 & 3.769 & 0.194 \\ \hline
+3.40 & 2.809 & 0.168 \\ \hline
+3.60 & 1.570 & 0.125 \\ \hline
+3.80 & 1.370 & 0.117 \\ \hline
+3.85 & 1.779 & 0.133 \\ \hline
+3.90 & 1.999 & 0.141 \\ \hline
+3.95 & 2.629 & 0.162 \\ \hline
+4.00 & 3.389 & 0.184 \\ \hline
+4.05 & 4.299 & 0.207 \\ \hline
+4.10 & 5.688 & 0.238 \\ \hline
+4.15 & 6.818 & 0.261 \\ \hline
+4.20 & 8.618 & 0.294 \\ \hline
+4.25 & 8.598 & 0.293 \\ \hline
+4.30 & 8.298 & 0.288 \\ \hline
+4.35 & 6.958 & 0.264 \\ \hline
+4.40 & 6.488 & 0.255 \\ \hline
+4.45 & 4.639 & 0.215 \\ \hline
+4.50 & 3.769 & 0.194 \\ \hline
+4.55 & 2.689 & 0.164 \\ \hline
+4.60 & 1.650 & 0.128 \\ \hline
+4.65 & 1.180 & 0.109 \\ \hline
+4.70 & 0.920 & 0.096 \\ \hline
+4.75 & 0.740 & 0.086 \\ \hline
+4.80 & 0.670 & 0.082 \\ \hline
+5.00 & 0.340 & 0.058 \\ \hline
+
+\end{longtable}
+
+\newpage
+
+Далее построим график зависимости числа отсчетов в фокусирующей катушке. Также вычтем фон из результатов измерений. Для этого построим через две крайние точки ($I = 0$ A и $I = 5$ А) прямую и вычтем ее из спектра.
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.5\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{images/graph1.png}
+    \captionof{figure}{График зависимости $N(I)$ без вычета фона.}
+    \label{fig:graph1}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{images/graph2.png}
+    \captionof{figure}{График зависимости $N(I)$ с вычетом фона.}
+    \label{fig:graph2}
+\end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{images/pc1.png}
+    \captionof{figure}{График зависимости $N(I)$ полученный при обработке данных на компьютере.}
+    \label{fig:pc1}
+\end{figure}
+
+Далее построим график зависимости числа отсчетов от импульса электронов. Для этого пересчитаем ток в импульс по такой формуле:
+
+\[
+p_e = kI,
+\]
+
+где коэффициент $k$ мы определим таким образом ($T_k = 0.624$ МэВ - энергия электронов внутренней конверсии):
+
+Импульс $p$ и кинетическая энергия $T$ связаны релятивистским соотношением:
+\[
+E^2 = p^2c^2 + m^2c^4
+\]
+
+Где $E = T_k + mc^2$. Отсюда выражаем импульс $p$:
+\[
+pc = \sqrt{(T_k + mc^2)^2 - (mc^2)^2} = \sqrt{T_k^2 + 2T_{k}mc^2} \approx 1013.5 \text{ кэВ/c - импульс конверсионных электронов}
+\]
+
+Далее определим значение силы тока при котором у нас наблюдается конверсионный пик и отобразим это на графике.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{images/graph3.png}
+    \captionof{figure}{Аппроксимация параболой конверсионного пика.}
+    \label{fig:graph3}
+\end{figure}
+
+Таким образом, $I_k = 4.26 \pm 0.01$ А. Определим коэффициент k:
+
+\[
+1013.5 = k \cdot I_k \rightarrow k = 238 \pm 1 \text{ кэВ/(с$\cdot$А)}
+\]
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.6\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{images/graph4.png}
+    \captionof{figure}{График зависимости $N(p)$.}
+    \label{fig:graph4}
+\end{minipage}%
+\begin{minipage}{.4\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{images/pc2.png}
+    \captionof{figure}{График зависимости $N(p)$ полученный при обработке данных на компьютере.}
+    \label{fig:pc2}
+\end{minipage}
+\end{figure}
+
+Таким образом, мы получаем, что $p_{peak} = 1013 \pm 7 \; \frac{\text{кэВ}}{c}$. Далее переведем значения импульсов в энергию и построим график зависимости $N(T_e)$.
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.6\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{images/graph5.png}
+    \captionof{figure}{График зависимости $N(T_e)$.}
+    \label{fig:graph4}
+\end{minipage}%
+\begin{minipage}{.4\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{images/pc3.png}
+    \captionof{figure}{График зависимости $N(T_e)$ полученный при обработке данных на компьютере.}
+    \label{fig:pc2}
+\end{minipage}
+\end{figure}
+
+\[
+T_{peak} = 623.8 \pm 0.6 \text{ кэВ}
+\]
+
+Данное значение в пределах погрешности уже совпадает с теоретическим: $T_{theor} = 624 \text{ кэВ}$
+
+Теперь построим график Ферми Кюри по формуле:
+
+\[
+mkFermi = \frac{\sqrt{N(p)}}{p^{\frac{3}{2}}} \cdot 10^6
+\]
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.6\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{images/graph6.png}
+    \captionof{figure}{График Ферми.}
+    \label{fig:graph4}
+\end{minipage}%
+\begin{minipage}{.4\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{images/pc4.png}
+    \captionof{figure}{График Ферми полученный при обработке данных на компьютере.}
+    \label{fig:pc2}
+\end{minipage}
+\end{figure}
+
+Получаем, что: $T_{max} = 578 \pm 32 \text{ кэВ}$.
+
+\section*{Вывод}
+
+Таким образом, в ходе работы были получены следующие результаты:
+
+\begin{itemize}
+    \item построен и исследован $\beta$-спектр для $^{137}Cs$;
+    \item оценена энергия конверсионного пика и максимальная энергия:
+    \begin{itemize}
+        \item Энергия конверсионного пика: $T_{peak} = 623.8 \pm 0.6 \text{ кэВ}$
+        \item Максимальная энергия: $T_{max} = 578 \pm 32 \text{ кэВ}$
+    \end{itemize}
+\end{itemize}
+
+\end{document}
