@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1763994417.88713 "/home/matveypavlov/Рабочий стол/lab/5.10.1/main.tex" "main.pdf" "main" 1763994418.9102 0
+["pdflatex"] 1765438682.75448 "/home/matveypavlov/Рабочий стол/lab/5.10.1/main.tex" "main.pdf" "main" 1765438683.86782 0
   "/etc/texmf/web2c/texmf.cnf" 1749374368.37977 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/matveypavlov/.texlive2023/texmf-var/fonts/tfm/lh/lh-t2a/labx1200.tfm" 1757776428.59402 3308 eee81981029f67083258db36df06e523 ""
   "/home/matveypavlov/.texlive2023/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1757776435.54211 3304 6a543c07045572737981351171e0505e ""
@@ -12,7 +12,7 @@
   "/home/matveypavlov/.texlive2023/texmf-var/fonts/tfm/lh/lh-t2a/larm1728.tfm" 1757776414.68484 3252 92d08740ce00199d6cf9ff4aaada81d1 ""
   "/home/matveypavlov/.texlive2023/texmf-var/fonts/tfm/lh/lh-t2a/larm2074.tfm" 1757776404.5807 3264 03c2b9e4787a40d3b9c197c38b93b558 ""
   "/home/matveypavlov/.texlive2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1757776397 8213654 690a4b3fae9d89a16779f9824dfb0f53 ""
-  "/home/matveypavlov/Рабочий стол/lab/5.10.1/main.tex" 1763994417.67332 30195 b3dff62d82b687b7d443878cc14c90d3 ""
+  "/home/matveypavlov/Рабочий стол/lab/5.10.1/main.tex" 1765438681.91692 30424 0f38b3b8f0195718e41b2f1c212c2242 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1136768653 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -137,9 +137,9 @@
   "images/4.png" 1763892946.51351 71213 45bd954a472dcf523e5b1f7d21d42d14 ""
   "images/graph_1.png" 1763895787.61089 72787 4cf48f82f2855089cfd34a5afeff52ba ""
   "images/graph_2.png" 1763898681.90677 80908 dd6ad28756465cb988e5ec3c18f4d90c ""
-  "main.aux" 1763994418.80032 3832 881b5ce2c0c287f960692b212952cbcc "pdflatex"
-  "main.out" 1763994418.34532 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1763994417.67332 30195 b3dff62d82b687b7d443878cc14c90d3 ""
+  "main.aux" 1765438683.76593 3832 881b5ce2c0c287f960692b212952cbcc "pdflatex"
+  "main.out" 1765438683.28993 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1765438681.91692 30424 0f38b3b8f0195718e41b2f1c212c2242 ""
   (generated)
   "main.aux"
   "main.log"
